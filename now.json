@@ -1,23 +1,31 @@
 {
   "version": 2,
-  "name": "elbraulio",
+  "name": "genetical",
   "github": {
     "silent": true
   },
   "builds": [
     {
-      "src": "elbraulio.com/**",
+      "src": "/**",
       "use": "@now/static"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "elbraulio.com/index.html"
+      "dest": "index.html"
     },
     {
-      "src": "^/face.png",
-      "dest": "/face.png"
+      "src": "^/favicon.png",
+      "dest": "/favicon.png"
+    },
+    {
+      "src": "^/script.min.js",
+      "dest": "/script.min.js"
+    },
+    {
+      "src": "^/style.css",
+      "dest": "/style.css"
     }
   ]
 }
