@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "elbraulio.com/index.html"
+      "dest": "neuralnet.elbraulio.com/index.html"
     },
     {
       "src": "^/favicon.png",
