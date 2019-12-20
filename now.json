@@ -6,14 +6,14 @@
   },
   "builds": [
     {
-      "src": "neuralnet.elbraulio.com/**",
+      "src": "/**",
       "use": "@now/static"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "neuralnet.elbraulio.com/index.html"
+      "dest": "index.html"
     },
     {
       "src": "^/favicon.png",
