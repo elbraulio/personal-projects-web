@@ -6,18 +6,18 @@
   },
   "builds": [
     {
-      "src": "elbraulio.com",
+      "src": "elbraulio.com/**",
       "use": "@now/static"
     }
   ],
   "routes": [
     {
-      "src": "^/face.png",
-      "dest": "/face.png"
+      "src": "/",
+      "dest": "elbraulio.com/index.html"
     },
     {
-      "src": "/",
-      "dest": "/elbraulio.com/index.hmtl"
+      "src": "^/face.png",
+      "dest": "/face.png"
     }
   ]
 }
