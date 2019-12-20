@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "elbraulio",
+  "github": {
+    "silent": true
+  },
+  "builds": [
+    {
+      "src": "elbraulio.com",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/face.png",
+      "dest": "/face.png"
+    },
+    {
+      "src": "/",
+      "dest": "elbraulio.com/index.hmtl"
+    }
+  ]
+}
