@@ -6,7 +6,7 @@
   },
   "builds": [
     {
-      "src": "elbraulio.com/**",
+      "src": "neuralnet.elbraulio.com/**",
       "use": "@now/static"
     }
   ],
@@ -16,8 +16,16 @@
       "dest": "elbraulio.com/index.html"
     },
     {
-      "src": "^/face.png",
-      "dest": "/face.png"
+      "src": "^/favicon.png",
+      "dest": "/favicon.png"
+    },
+    {
+      "src": "^/script.min.js",
+      "dest": "/script.min.js"
+    },
+    {
+      "src": "^/style.css",
+      "dest": "/style.css"
     }
   ]
 }
