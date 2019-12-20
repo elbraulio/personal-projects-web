@@ -1,23 +1,19 @@
 {
   "version": 2,
-  "name": "elbraulio",
+  "name": "ezloa",
   "github": {
     "silent": true
   },
   "builds": [
     {
-      "src": "elbraulio.com/**",
+      "src": "/**",
       "use": "@now/static"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "elbraulio.com/index.html"
-    },
-    {
-      "src": "^/face.png",
-      "dest": "/face.png"
+      "dest": "index.html"
     }
   ]
 }
